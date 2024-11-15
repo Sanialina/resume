@@ -1,0 +1,92 @@
+body { 
+    font-family: sans-serif;
+    background-color: rgb(12, 12, 12);
+    margin: 0;
+}
+
+.resume-container {
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 2px;
+    box-shadow: 0 0 20px blueviolet;
+    padding: 8px;
+}
+
+.left-section, .right-section {
+    padding: 10px;
+}
+
+.left-section {
+    background-color: black;
+    color: antiquewhite;
+    width: 35%;
+    text-align: center;
+    border-right: 3px solid blueviolet;
+}
+
+.profile-picture {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid rgb(139, 58, 214);
+    margin: 10px auto;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 5px 0;
+    text-align: center;
+}
+
+h3 {
+    font-size: 16px;
+    margin: 10px 0;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 0 0 10px blueviolet;
+    padding: 6px; 
+}
+
+p {
+    font-size: 14px;
+    margin: 2px 0;
+    line-height: 1.6;
+}
+
+.right-section {
+    width: 65%;
+    background-color: rgb(252, 248, 248);
+    color: rgb(18, 18, 19);
+}
+
+.right-section ul li {
+    font-size: 14px; 
+    margin: 2px 0;
+}
+
+ul {
+    padding: 0;
+    margin: px 0;
+    list-style-type: none;
+}
+
+button {
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: blueviolet;
+}
+
+.skill-item {
+    display: inline-block;
+    margin-right: 8px;
+    font-size: 16px;
+    padding: 1px;
+}
